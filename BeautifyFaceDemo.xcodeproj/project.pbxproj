@@ -165,7 +165,7 @@
 				TargetAttributes = {
 					3057CD171CD062CC007F33F6 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 5S7PK25362;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -386,11 +386,13 @@
 			baseConfigurationReference = 75D025A9E6638C8C922DF26D /* Pods-BeautifyFaceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5S7PK25362;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jzzx.popo;
+				PRODUCT_BUNDLE_IDENTIFIER = r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -399,11 +401,13 @@
 			baseConfigurationReference = A61DDED815A9FEBD88187408 /* Pods-BeautifyFaceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5S7PK25362;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jzzx.popo;
+				PRODUCT_BUNDLE_IDENTIFIER = r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
